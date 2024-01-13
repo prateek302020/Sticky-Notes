@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-container">
+        <div class="color-and-text">
+          <textarea
+            name=""
+            id="textarea"
+            cols="30"
+            rows="10"
+            placeholder="//Write your note here."
+          ></textarea>
+          <div class="color">
+            <input type="color" value="#44B09E" />
+          </div>
+        </div>
+        <div class="buttons">
+          <button>Add note</button>
+        </div>
+      </div>
+      <div class="right-containere">
+        <h1><i>Your Notes :</i></h1>
+        <div class="right-container-notes"></div>
+        <span class="notesNotAdded">
+          <p><i>You have not added a note yet.</i></p>
+        </span>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
