@@ -1,6 +1,5 @@
 # Sticky-Notes
-Sticky Notes Project
-Overview
+Overview:
 The Sticky Notes project is a simple web application built using JavaScript that allows users to create and manage digital sticky notes. This project aims to provide a user-friendly interface for jotting down quick notes, reminders, or to-do lists.
 
 Features
